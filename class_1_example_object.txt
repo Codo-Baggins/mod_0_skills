@@ -1,0 +1,18 @@
+instance: breakfast_menu
+
+
+attributes:
+
+dish_name: dish_name = "eggs"
+table_order: table_order = ["waffles": 3.00, "toast": 1.00, "coffee":1.00]
+dish_price: dish_price = 4.00
+has_coupon = false
+
+
+
+methods:
+
+change_dish: dish_name = "pancakes"
+add_dish_name_and_price: table_order = ["waffles": 3.00, "toast": 1.00, "coffee": 1.00, "pancakes": 2:50]
+half_off: dish_price = 1.25
+calculate_total: 7.50
