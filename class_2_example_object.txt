@@ -1,0 +1,18 @@
+instance: booth
+
+
+attributes:
+
+reservation_name = "Johnson"
+location = "dining"
+number_of_seats = 4
+reservation = false
+available_spots = ["patio": 3, "bar": 4, "dining": 5]
+
+
+methods
+
+change_name: reservation_name = "Smith"
+add_seat: number_of_seats = 5
+customer_leave: available_spots = ["patio": 3, "bar": 4, "dining": 6]
+place_reservation:: available_spots = ["patio": 3, "bar": 4, "dining": 5]
