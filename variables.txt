@@ -1,0 +1,19 @@
+var food = "ham";
+
+var is_delicious = false;
+
+var food = "turkey";
+
+var num2 = 10;
+
+var num7 = 12;
+
+var quotient = num7 / num2;
+
+var songs = ["Crazy Train", "Down With The Sickness", "Welcome To The Black Parade"];
+
+songs.splice(0,1);
+
+console.log(food.length())
+
+console.log(food.length)
