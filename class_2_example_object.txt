@@ -1,18 +1,18 @@
-instance: booth
+instance: Dave
 
 
 attributes:
 
-reservation_name = "Johnson"
-location = "dining"
-number_of_seats = 4
-reservation = false
-available_spots = ["patio": 3, "bar": 4, "dining": 5]
+shiftsAvailable: shiftsAvailable = ["Mon", "Wed", "Fri"]
+payRate: payRate = 8.50
+age: age = 19
+title: title = "Sous Chef"
 
 
-methods
 
-change_name: reservation_name = "Smith"
-add_seat: number_of_seats = 5
-customer_leave: available_spots = ["patio": 3, "bar": 4, "dining": 6]
-place_reservation:: available_spots = ["patio": 3, "bar": 4, "dining": 5]
+methods:
+
+takeVacation: shiftsAvailable = ["Mon", "Wed"]
+giveRaise: payRate = 9.50
+promotion: title = "Head Chef"
+birthday: age = 20

@@ -1,18 +1,18 @@
-instance: breakfast_menu
+instance: ChickenParmesan
 
 
 attributes:
 
-dish_name: dish_name = "eggs"
-table_order: table_order = ["waffles": 3.00, "toast": 1.00, "coffee":1.00]
-dish_price: dish_price = 4.00
-has_coupon = false
-
+sideDish: sideDish = "green beans"
+ingredients: ingredients = ["chicken", "parmesan cheese", "mozzarella", "marinara"]
+cookTime: cookTime = 25
+isSpicy: isSpicy = false
 
 
 methods:
 
-change_dish: dish_name = "pancakes"
-add_dish_name_and_price: table_order = ["waffles": 3.00, "toast": 1.00, "coffee": 1.00, "pancakes": 2:50]
-half_off: dish_price = 1.25
-calculate_total: 7.50
+changeSideDish: changeSideDish = "broccoli"
+makeVegetarian: ingredients = ["vegetarian alternative", "parmesan cheese", "mozzarella", "marinara"]
+wellDone: cookTime = 30
+makeSpicy: ingredients = ["chicken", "parmesan cheese", "mozzarella", "marinara", "hot sauce"]
+makeSpicy: isSpicy = true
