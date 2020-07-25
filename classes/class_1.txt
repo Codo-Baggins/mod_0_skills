@@ -1,0 +1,17 @@
+class: Dish
+
+
+attributes:
+
+sideDish (string)
+ingredients (array)
+cookTime (float)
+isSpicy (boolean)
+
+
+methods:
+
+changeSideDish (changes the sideDish attribute)
+makeVegetarian (replaces the meat ingredient string in the ingredients array with a "vegetarian alternative")
+makeWellDone (adds 5 to the cookTime attribute)
+makeSpicy (adds "hot sauce" string to ingredients array and changes isSpicy attribute to true)

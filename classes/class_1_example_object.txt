@@ -1,0 +1,18 @@
+instance: ChickenParmesan
+
+
+attributes:
+
+sideDish: sideDish = "green beans"
+ingredients: ingredients = ["chicken", "parmesan cheese", "mozzarella", "marinara"]
+cookTime: cookTime = 25
+isSpicy: isSpicy = false
+
+
+methods:
+
+changeSideDish: changeSideDish = "broccoli"
+makeVegetarian: ingredients = ["vegetarian alternative", "parmesan cheese", "mozzarella", "marinara"]
+makeWellDone: cookTime = 30
+makeSpicy: ingredients = ["chicken", "parmesan cheese", "mozzarella", "marinara", "hot sauce"]
+makeSpicy: isSpicy = true

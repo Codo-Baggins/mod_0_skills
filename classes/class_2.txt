@@ -1,0 +1,18 @@
+class: Employee
+
+
+attributes:
+
+scheduledShifts (array)
+payRate (float)
+age (integer)
+title (string)
+
+
+
+methods:
+
+takeVacation (removes a specified string from the scheduledShifts array)
+giveRaise (adds 1 to the payRate float)
+promote (changes title string)
+haveBirthday (adds 1 to the age integer)
