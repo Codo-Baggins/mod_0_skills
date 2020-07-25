@@ -1,0 +1,18 @@
+instance: Dave
+
+
+attributes:
+
+scheduledShifts: scheduledShifts = ["Mon", "Wed", "Fri"]
+payRate: payRate = 8.50
+age: age = 19
+title: title = "Sous Chef"
+
+
+
+methods:
+
+takeVacation: scheduledShifts = ["Mon", "Wed"]
+giveRaise: payRate = 9.50
+promote: title = "Head Chef"
+haveBirthday: age = 20
